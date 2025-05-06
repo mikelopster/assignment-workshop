@@ -9,12 +9,15 @@ try {
         throw new Error("fizzBuzzPlusPlus is not exported as a function or module not found.");
     }
 } catch (e) {
-    console.warn("Warning: Could not import 'fizzBuzzPlusPlus' from 'fizzbuzz.js'. Using dummy function.");
+    // Log the specific error for debugging purposes
+    console.error("Error when importing 'fizzBuzzPlusPlus':", e.message);
+    
+    // Provide clear instructions for the user
     console.warn("Please create 'fizzbuzz.js' and export the 'fizzBuzzPlusPlus' function.");
+    
     // สร้างฟังก์ชันจำลองเพื่อให้ test run ได้
     fizzBuzzPlusPlus = (n) => {
         // คืนค่าที่ทำให้ test ส่วนใหญ่ fail จนกว่าจะ implement
-        console.warn("Function 'fizzBuzzPlusPlus' needs implementation!");
         return `Implement Me: ${n}`;
     };
 }

@@ -18,6 +18,8 @@ This repository contains a series of programming workshops designed to test and 
 ### Task 1: Matrix Rotation (Python)
 **Objective**: Implement a function that rotates a 2D matrix 90 degrees clockwise.
 
+**Target File**: `workshop-1/task-1/matrix_rotation.py`
+
 **Requirements**:
 - Create a Python function named `rotate_matrix`
 - The function should accept a 2D matrix (list of lists) as input
@@ -26,11 +28,14 @@ This repository contains a series of programming workshops designed to test and 
 
 **Test Command**:
 ```shell
-python -m unittest workshop-1/task-1/1_test.py
+cd workshop-1/task-1
+python -m unittest matrix_rotation_test.py
 ```
 
 ### Task 2: FizzBuzz++ (JavaScript)
 **Objective**: Implement an enhanced version of the FizzBuzz algorithm.
+
+**Target File**: `workshop-1/task-2/fizzbuzz.js`
 
 **Rules**:
 - If the number is divisible by 3, include "Fizz"
@@ -41,12 +46,15 @@ python -m unittest workshop-1/task-1/1_test.py
 
 **Test Command**:
 ```shell
+cd workshop-1/task-2
 npm install
-npx jest
+npm run test
 ```
 
 ### Task 3: Custom Sorting (Go)
 **Objective**: Implement a custom sorting function for a slice of Person structs.
+
+**Target File**: `workshop-1/task-3/custom_sort.go`
 
 **Requirements**:
 - Create a function named `SortPeopleByAge`
@@ -55,11 +63,14 @@ npx jest
 
 **Test Command**:
 ```shell
+cd workshop-1/task-3
 go test
 ```
 
 ### Task 4: Binary Tree Visualization (Shell Script)
 **Objective**: Create a shell script that displays a binary tree structure.
+
+**Target File**: `workshop-1/task-4/binary.sh`
 
 **Requirements**:
 - Implement a shell script that represents a binary tree
@@ -67,7 +78,9 @@ go test
 
 **Execution Command**:
 ```shell
-./task-4/4.sh
+cd workshop-1/task-4
+chmod +x binary.sh
+./binary.sh
 ```
 
 ## Workshop 2: Requirement Analysis

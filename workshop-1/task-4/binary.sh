@@ -57,13 +57,11 @@ echo ""
 # ตัวอย่างการแปลง String เป็น Array (Bash)
 nodes=($TREE_NODES)
 
-# TODO: เขียน Logic การแสดงผล Binary Tree ตามรูปแบบที่คาดหวังด้านบน
-#       โดยใช้ข้อมูลจาก Array `nodes`
-
+# IMPLEMENTATION:
 echo "TODO: Implement tree printing logic here using the 'nodes' array."
 echo "(Note: This is significantly more complex than the previous indented list format in shell scripting.)"
 
 
-# --- สิ้นสุดส่วนที่ผู้เรียนต้อง Implement ---
+
 
 exit 0
