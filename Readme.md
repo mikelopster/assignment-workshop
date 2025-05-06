@@ -1,56 +1,96 @@
+# Programming Workshop Assignments
 
-## Assignment Workshop
+This repository contains a series of programming workshops designed to test and improve your skills across various programming languages and concepts.
 
-### workshop-1 = Problem solving
+## Workshop Overview
 
-- task-1 = rotation matrix ด้วย python
+| Workshop | Topic | Description |
+|----------|-------|-------------|
+| Workshop 1 | Problem Solving | Practical programming exercises in Python, JavaScript, Go, and Shell |
+| Workshop 2 | Requirement Analysis | Learning to analyze and document requirements |
+| Workshop 3 | Frontend Development | Creating a landing page using preferred technologies |
+| Workshop 4 | Backend Development | API development with database modeling and documentation |
+| Workshop 5 | Testing | Backend testing based on features and test cases |
+| Workshop 6 | Code Review | Identifying and fixing issues in existing code |
 
-```
-เขียนฟังก์ชัน Python ชื่อ rotate_matrix ที่สามารถหมุนเมทริกซ์ (Matrix) ที่เป็น Input แบบ 2 มิติ (list of lists) ไปทางขวา (ตามเข็มนาฬิกา) 90 องศา
-```
+## Workshop 1: Problem Solving
 
+### Task 1: Matrix Rotation (Python)
+**Objective**: Implement a function that rotates a 2D matrix 90 degrees clockwise.
+
+**Requirements**:
+- Create a Python function named `rotate_matrix`
+- The function should accept a 2D matrix (list of lists) as input
+- It should rotate the matrix 90 degrees to the right (clockwise)
+- Return the rotated matrix
+
+**Test Command**:
 ```shell
 python -m unittest workshop-1/task-1/1_test.py
 ```
 
-- task-2 = Fizzbuzz ด้วย javascript
+### Task 2: FizzBuzz++ (JavaScript)
+**Objective**: Implement an enhanced version of the FizzBuzz algorithm.
 
-```
-กฎของ FizzBuzz++:
-- ถ้าหารด้วย 3 ลงตัว ให้มีคำว่า "Fizz"
-- ถ้าหารด้วย 5 ลงตัว ให้มีคำว่า "Buzz"
-- ถ้าหารด้วย 7 ลงตัว ให้มีคำว่า "Woof"
-- ถ้าหารด้วยหลายตัวลงตัว ให้นำคำมาต่อกัน (เช่น หารด้วย 3 และ 5 ลงตัว เป็น "FizzBuzz")
-- ถ้าหารด้วย 3, 5, หรือ 7 ไม่ลงตัวเลย ให้คืนค่าเป็นตัวเลขนั้นเอง
-```
+**Rules**:
+- If the number is divisible by 3, include "Fizz"
+- If the number is divisible by 5, include "Buzz"
+- If the number is divisible by 7, include "Woof"
+- If divisible by multiple numbers, concatenate the words (e.g., divisible by 3 and 5 = "FizzBuzz")
+- If not divisible by 3, 5, or 7, return the number itself
 
+**Test Command**:
 ```shell
 npm install
 npx jest
 ```
 
-- task-3 = Implement Custom Sorting ด้วย go
+### Task 3: Custom Sorting (Go)
+**Objective**: Implement a custom sorting function for a slice of Person structs.
 
-```
-สร้าง function SortPeopleByAge ที่รับ Slice ของ Person struct ([]Person) และทำการเรียงลำดับ in-place (แก้ไข Slice เดิม) ตามค่า Age จากน้อยไปมาก
-```
+**Requirements**:
+- Create a function named `SortPeopleByAge`
+- The function should accept a slice of Person structs (`[]Person`)
+- Sort the slice in-place by the `Age` field in ascending order
 
+**Test Command**:
 ```shell
 go test
 ```
 
-- task-4 = Binary Tree ด้วย shell script
+### Task 4: Binary Tree Visualization (Shell Script)
+**Objective**: Create a shell script that displays a binary tree structure.
 
-```
-โจทย์: แสดง Binary Tree ด้วย Shell Script (รูปแบบโครงสร้างซ้าย-ขวา)
-```
+**Requirements**:
+- Implement a shell script that represents a binary tree
+- Use a left-right structure format
 
+**Execution Command**:
 ```shell
 ./task-4/4.sh
 ```
 
-- workshop-2 = Requirement Analysis
-- workshop-3 (try Frontend) = จงทำหน้าเว็บ landing page ให้สวยที่สุด จากเครื่องมืออะไรก็ได้ที่คุณถนัด
-- workshop-4 (try Backend) = จงทำ API Support กับโจทย์ UI ดังกล่าว พร้อมทำ Database diagram และ API Specs document (swagger)
-- workshop-5 = Testing จงทำ Backend Testing follow ตาม feature และ test case
-- workshop-6 = Find Problem in Code
+## Workshop 2: Requirement Analysis
+Exercise focused on analyzing requirements and documenting specifications.
+
+**Deliverables**:
+- User stories
+- Acceptance criteria
+- POC (Proof of Concept)
+
+## Workshop 3: Frontend Development
+**Objective**: Create an attractive landing page using your preferred tools and technologies.
+
+## Workshop 4: Backend Development
+**Objective**: Develop APIs to support the provided UI design.
+
+**Deliverables**:
+- Working API implementation
+- Database diagram
+- API documentation (Swagger)
+
+## Workshop 5: Testing
+**Objective**: Implement backend tests according to specified features and test cases.
+
+## Workshop 6: Code Review
+**Objective**: Identify and fix problems in the provided code samples.
