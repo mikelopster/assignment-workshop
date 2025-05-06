@@ -42,15 +42,15 @@ go test
 - task-4 = Binary Tree ด้วย shell script
 
 ```
-โจทย์: แสดง Binary Tree ด้วย Shell Script (รูปแบบโครงสร้างซ้าย-ขวา)  
+โจทย์: แสดง Binary Tree ด้วย Shell Script (รูปแบบโครงสร้างซ้าย-ขวา)
 ```
 
 ```shell
 ./task-4/4.sh
 ```
 
-
-- workshop-2 = Requirement Analysis จะมีเอกสาร BRD มาให้ทีมวิเคราะห์เพื่อทำ card ของแต่ละ feature
-- สำหรับ workshop-3 (try Frontend) และ workshop-4 (try Backend) ไม่มีโจทย์เฉพาะ แต่เราจะไล่ลำดับไปตาม BRD จาก workshop 2 กัน
-- workshop-5 = Testing
-- workshop-6 = Refactoring
+- workshop-2 = Requirement Analysis
+- workshop-3 (try Frontend) = จงทำหน้าเว็บ landing page ให้สวยที่สุด จากเครื่องมืออะไรก็ได้ที่คุณถนัด
+- workshop-4 (try Backend) = จงทำ API Support กับโจทย์ UI ดังกล่าว พร้อมทำ Database diagram และ API Specs document (swagger)
+- workshop-5 = Testing จงทำ Backend Testing follow ตาม feature และ test case
+- workshop-6 = Find Problem in Code
