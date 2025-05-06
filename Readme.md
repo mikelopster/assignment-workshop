@@ -5,6 +5,10 @@
 
 - โจทย์ 1 = rotation matrix ด้วย python
 
+```
+เขียนฟังก์ชัน Python ชื่อ rotate_matrix ที่สามารถหมุนเมทริกซ์ (Matrix) ที่เป็น Input แบบ 2 มิติ (list of lists) ไปทางขวา (ตามเข็มนาฬิกา) 90 องศา
+```
+
 ```shell
 python -m unittest workshop-1/1_test.py
 ```
