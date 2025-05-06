@@ -3,17 +3,17 @@
 
 ### workshop-1 = Problem solving
 
-- โจทย์ 1 = rotation matrix ด้วย python
+- task-1 = rotation matrix ด้วย python
 
 ```
 เขียนฟังก์ชัน Python ชื่อ rotate_matrix ที่สามารถหมุนเมทริกซ์ (Matrix) ที่เป็น Input แบบ 2 มิติ (list of lists) ไปทางขวา (ตามเข็มนาฬิกา) 90 องศา
 ```
 
 ```shell
-python -m unittest workshop-1/1_test.py
+python -m unittest workshop-1/task-1/1_test.py
 ```
 
-- โจทย์ 2 = Fizzbuzz ด้วย javascript
+- task-2 = Fizzbuzz ด้วย javascript
 
 ```
 กฎของ FizzBuzz++:
@@ -29,7 +29,7 @@ npm install
 npx jest
 ```
 
-- โจทย์ 3 = Implement Custom Sorting ด้วย go
+- task-3 = Implement Custom Sorting ด้วย go
 
 ```
 สร้าง function SortPeopleByAge ที่รับ Slice ของ Person struct ([]Person) และทำการเรียงลำดับ in-place (แก้ไข Slice เดิม) ตามค่า Age จากน้อยไปมาก
@@ -39,16 +39,18 @@ npx jest
 go test
 ```
 
-- โจทย์ 4 = Binary Tree ด้วย shell script
+- task-4 = Binary Tree ด้วย shell script
 
 ```
 โจทย์: แสดง Binary Tree ด้วย Shell Script (รูปแบบโครงสร้างซ้าย-ขวา)  
 ```
 
 ```shell
-./4.sh
+./task-4/4.sh
 ```
 
 
 - workshop-2 = Requirement Analysis จะมีเอกสาร BRD มาให้ทีมวิเคราะห์เพื่อทำ card ของแต่ละ feature
 - สำหรับ workshop-3 (try Frontend) และ workshop-4 (try Backend) ไม่มีโจทย์เฉพาะ แต่เราจะไล่ลำดับไปตาม BRD จาก workshop 2 กัน
+- workshop-5 = Testing
+- workshop-6 = Refactoring
